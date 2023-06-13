@@ -1,0 +1,57 @@
+@media screen and (max-width: 1024px) {
+  nav {
+    padding: 0 50px;
+    font-size: 20px;
+  }
+
+  nav ul {
+    position: fixed;
+    width: 100%;
+    background: #fff;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: all 0.3s ease;
+  }
+
+  nav ul li {
+    padding: 12px 0;
+    margin: 0;
+  }
+
+  nav ul li a {
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+  }
+
+  nav ul li:hover {
+    background: rgba(95, 175, 201, 1);
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+  }
+
+  nav ul li a:hover {
+    background: none;
+  }
+
+  .open {
+    left: 0;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .sidebar {
+    background-image: linear-gradient(
+      65.9deg,
+      rgba(85, 228, 224, 1) 5.5%,
+      rgba(75, 68, 224, 0.74) 54.2%,
+      rgba(64, 198, 238, 1) 55.2%,
+      rgba(177, 36, 224, 1) 98.4%
+    );
+  }
+}

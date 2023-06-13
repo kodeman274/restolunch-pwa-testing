@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;600&family=Pacifico&family=Silkscreen&display=swap');
+
+nav {
+  background-image: linear-gradient(
+    65.9deg,
+    rgba(85, 228, 224, 1) 5.5%,
+    rgba(75, 68, 224, 0.74) 54.2%,
+    rgba(64, 198, 238, 1) 55.2%,
+    rgba(177, 36, 224, 1) 98.4%
+  );
+  padding: 10px 20px;
+  position: fixed;
+  width: 100%;
+  justify-content: space-between;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  height: 70px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li a {
+  margin: 0 5px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+}
+
+.brands {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  font-family: 'Lobster', cursive;
+  line-height: 24px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding: 14px 18px 16px;
+}
+
+nav a {
+  font-size: 28px;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 20px 15px;
+  transition: all 0.3s ease;
+}
+
+.hamburger {
+  display: none;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 28px;
+  font-weight: 500;
+  color: #ffffff;
+  padding: 12px 15px;
+  transition: all 0.3s ease;
+}
+
+.hero {
+  background-image: url('https://user-images.githubusercontent.com/99820483/216377944-522ea671-9a1c-4d85-968e-919e5e9b21aa.png');
+  display: flex;
+  padding: 0 80px;
+  align-items: center;
+  min-height: 700px;
+  width: 100%;
+  min-width: 300px;
+  justify-content: center;
+  background-position: auto;
+}
+
+.hero__title {
+  color: #fff;
+  font-weight: 500;
+  font-size: 36px;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+}
+
+.hero__tagline {
+  color: #fff;
+  margin-top: 16px;
+  font-size: 18px;
+  font-weight: 550;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.fa,
+.fas {
+  padding: 10px;
+  font-weight: 900;
+}
+
+.fa,
+.far,
+.fas {
+  font-family: 'Font Awesome 5 Free';
+}
+
+.skip-link {
+  position: absolute;
+  margin: auto;
+  top: -100px;
+  padding: 10px;
+  border-bottom-right-radius: 10px;
+  text-decoration: none;
+  background-image: linear-gradient(45deg, rgb(255, 11, 11), rgb(218, 62, 62));
+  color: white;
+  z-index: 100;
+}
+
+.skip-link:focus {
+  top: 100px;
+}

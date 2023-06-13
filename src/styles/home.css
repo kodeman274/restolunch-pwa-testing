@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;600&family=Pacifico&family=Silkscreen&display=swap');
+
+.headline {
+  padding: 50px;
+  grid-template-columns: 56% auto;
+  min-height: 100vh;
+}
+
+.headline_tagline {
+  font-weight: 700;
+  font-size: 1.8em;
+  text-align: center;
+  min-width: 44px;
+  min-height: 44px;
+  color: #ffffff;
+}
+
+.form {
+  width: 100%;
+  margin: 10px auto;
+  text-align: center;
+  height: auto;
+}
+
+.list {
+  margin: 32px auto auto;
+  text-align: left;
+}
+
+.menu {
+  display: contents;
+  margin-bottom: 15px;
+}
+
+.post-menu a {
+  text-decoration: none;
+  color: black;
+}
+
+.post-menu {
+  display: flexbox;
+  background-color: #dbc9ab;
+  width: 100%;
+  border-radius: 3px;
+  margin-bottom: 40px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  height: 100%;
+}
+
+.post-menu:hover {
+  transform: translateY(-5px);
+}
+
+.city {
+  position: absolute;
+  padding: 8px 20px;
+  text-align: center;
+  display: inline-block;
+  font-size: 8px;
+  background: #6b6458;
+  color: white;
+  font-weight: 100;
+  border-radius: 6px;
+  margin-top: 13px;
+  margin-left: -5px;
+}
+
+.city b {
+  margin-left: 5px;
+}
+
+.list_restaurant_img {
+  width: 100%;
+  min-height: 250px;
+}
+
+.list_restaurant_content {
+  padding: 10px;
+  text-align: justify;
+}
+
+.list_restaurant_content h1 {
+  font-size: 25px;
+  padding: 10px;
+}
+
+.list_restaurant_content h1 a {
+  font-size: 25px;
+  padding: 5px;
+}
+
+.list_restaurant_title {
+  font-weight: 500;
+  transition: 0.3s opacity;
+}
+
+.list_restaurant_title:hover {
+  opacity: 0.5;
+}
+
+.list_restaurant_title a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.list_restaurant_description {
+  margin-top: 16px;
+  font-size: 16px;
+  line-height: 1.5em;
+  font-family: arial;
+  font-weight: 500;
+}
+
+.list_restaurant_rating {
+  position: absolute;
+  background: #ffffff;
+  padding: 15px 20px;
+  text-align: center;
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+  border-radius: 0px 5px 0px 0px;
+  margin-top: -54px;
+  margin-left: -10px;
+}
+.list_restaurant_rating span {
+  font-size: 15px;
+}
+
+.list_restaurant_description {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* number of lines to show */
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+}

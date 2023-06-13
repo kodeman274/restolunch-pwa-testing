@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(
+    109.6deg,
+    rgba(44, 83, 131, 1) 18.9%,
+    rgba(95, 175, 201, 1) 91.1%
+  );
+}
+main {
+  width: 100%;
+  margin: 0 auto;
+  background-image: linear-gradient(
+    109.6deg,
+    rgba(44, 83, 131, 1) 18.9%,
+    rgba(95, 175, 201, 1) 91.1%
+  );
+}
